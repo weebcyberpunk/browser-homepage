@@ -1,0 +1,28 @@
+body {
+    background: #1E1E2E;
+    color: #D9E0EE;
+    text-align: center;
+}
+
+header {
+    font: bold 40pt monospace;
+    padding: 100px 0px 0px 0px;
+    line-height: 0px;
+}
+
+h2#greet {
+    font: normal 30pt monospace;
+}
+
+p {
+    font: normal 16pt monospace;
+    line-height: 0px;
+}
+
+p#ping {
+    line-height: 300px;
+}
+
+p#footer {
+    font: normal 12pt monospace;
+}
