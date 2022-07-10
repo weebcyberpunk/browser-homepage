@@ -24,11 +24,11 @@ function ping() {
 
     if (navigator.onLine) {
         windowPing.innerHTML = defaultPingText + " <strong>ONLINE</strong>"
-        windowPing.style.color = "#ABE9B3"
+        windowPing.style.color = "var(--green)"
 
     } else {
         windowPing.innerHTML = defaultPingText + " <strong>OFFLINE</strong>"
-        windowPing.style.color = "#F28FAD"
+        windowPing.style.color = "var(--red)"
 
     }
 }
@@ -72,8 +72,8 @@ function updatePage() {
 
 const windowGreet = document.querySelector("h2#greet")
 const windowClock = document.querySelector("h1#clock") 
-const windowUTC   = document.querySelector("p#utc")
-const windowDate  = document.querySelector("p#date")
+const windowUTC   = document.querySelector("div#utc")
+const windowDate  = document.querySelector("div#date")
 
 const windowPing      = document.querySelector("p#ping")
 const defaultPingText = windowPing.innerHTML
