@@ -52,7 +52,7 @@ function clock() {
     if (hour <= 12 && hour >= 6) {
         windowGreet.innerText = "Good Morning!"
 
-    } else if (hour < 18) {
+    } else if (hour < 18 && hour > 12) {
         windowGreet.innerText = "Good Afternoon!"
 
     } else {
