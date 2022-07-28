@@ -6,14 +6,6 @@
     --foreground: #D9E0EE;
     --green:      #ABE9B3;
     --red:        #F28FAD;
-
-    /*
-     * Light (Catppuccin latte)
-     */
-    /* --background: #D9E0EE; */
-    /* --foreground: #1E1E2E; */
-    /* --green:      #40A02B; */ 
-    /* --red:        #E78284; */
 }
 
 body {
